@@ -1,0 +1,61 @@
+.center{
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   width: 25%;
+}
+.mid{
+   text-align: center;
+}
+.container{
+   background-color: rgb(224, 223, 223);
+   text-align: center;
+   width: 90%;
+   margin: auto;
+}
+button{
+   text-align: center;
+   position: relative;
+   width: 120px;
+   margin: auto;
+   border: 1px solid black;
+   background-color: gainsboro;
+}
+input{
+   width: 350px;
+   height: 15px;
+   border: 1px solid black;
+}
+.row::after{
+   content: "";
+   display: table;
+   clear: both;
+}
+.row{
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.first{
+   text-align: center;
+   background-color: lightseagreen;
+   width: 35%;
+   height: 80px;
+   float: left;
+   margin-left: 5%;
+}
+.second{
+   float: left;
+   background-color: lightskyblue;
+   width: 20%;
+   height: 80px;
+}
+.third{
+   background-color: lightseagreen;
+   float: left;
+   width: 35%;
+   height: 80px;
+   margin-right: 5%;
+}
+
